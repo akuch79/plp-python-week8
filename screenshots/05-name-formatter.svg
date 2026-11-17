@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; }
+      .panel { fill: #161b22; stroke: #30363d; stroke-width: 2; }
+      .title { fill: #f0f6fc; font: 700 28px 'Consolas', 'Monaco', monospace; }
+      .text { fill: #c9d1d9; font: 20px 'Consolas', 'Monaco', monospace; }
+      .input { fill: #7ee787; font: 20px 'Consolas', 'Monaco', monospace; }
+      .result { fill: #a5d6ff; font: 20px 'Consolas', 'Monaco', monospace; }
+      .muted { fill: #8b949e; font: 18px 'Consolas', 'Monaco', monospace; }
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="700"/>
+  <rect class="panel" x="60" y="40" width="1080" height="620" rx="12"/>
+  <text x="90" y="100" class="title">--- NAME FORMATTER ---</text>
+  <text x="90" y="180" class="input">Enter your full name: margaret akuch deng</text>
+  <text x="90" y="250" class="result">Your formatted name is: Margaret Akuch Deng</text>
+  <text x="90" y="620" class="muted">Screenshot: name formatter tool</text>
+</svg>

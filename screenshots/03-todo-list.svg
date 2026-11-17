@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; }
+      .panel { fill: #161b22; stroke: #30363d; stroke-width: 2; }
+      .title { fill: #f0f6fc; font: 700 28px 'Consolas', 'Monaco', monospace; }
+      .text { fill: #c9d1d9; font: 20px 'Consolas', 'Monaco', monospace; }
+      .input { fill: #7ee787; font: 20px 'Consolas', 'Monaco', monospace; }
+      .success { fill: #7ee787; font: 20px 'Consolas', 'Monaco', monospace; }
+      .muted { fill: #8b949e; font: 18px 'Consolas', 'Monaco', monospace; }
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="700"/>
+  <rect class="panel" x="60" y="40" width="1080" height="620" rx="12"/>
+  <text x="90" y="100" class="title">--- TO-DO LIST ---</text>
+  <text x="90" y="170" class="text">1. Add a task
+2. View tasks
+3. Remove a task
+4. Return to main menu</text>
+  <text x="90" y="290" class="input">Choose an option (1-4): 1</text>
+  <text x="90" y="330" class="text">Enter your task: Study Python</text>
+  <text x="90" y="390" class="success">Task 'Study Python' added successfully!</text>
+  <text x="90" y="455" class="text">Choose an option (1-4): 2</text>
+  <text x="90" y="500" class="text">Your Tasks:
+1. Study Python</text>
+  <text x="90" y="620" class="muted">Screenshot: to-do list tool</text>
+</svg>

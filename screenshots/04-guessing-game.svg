@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; }
+      .panel { fill: #161b22; stroke: #30363d; stroke-width: 2; }
+      .title { fill: #f0f6fc; font: 700 28px 'Consolas', 'Monaco', monospace; }
+      .text { fill: #c9d1d9; font: 20px 'Consolas', 'Monaco', monospace; }
+      .input { fill: #7ee787; font: 20px 'Consolas', 'Monaco', monospace; }
+      .success { fill: #7ee787; font: 20px 'Consolas', 'Monaco', monospace; }
+      .warn { fill: #ffdf6f; font: 20px 'Consolas', 'Monaco', monospace; }
+      .muted { fill: #8b949e; font: 18px 'Consolas', 'Monaco', monospace; }
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="700"/>
+  <rect class="panel" x="60" y="40" width="1080" height="620" rx="12"/>
+  <text x="90" y="100" class="title">--- NUMBER GUESSING GAME ---</text>
+  <text x="90" y="155" class="text">I have selected a number between 1 and 10.</text>
+  <text x="90" y="195" class="text">You have 3 attempts to guess it.</text>
+  <text x="90" y="250" class="input">Enter your guess: 7</text>
+  <text x="90" y="300" class="warn">Your guess is too low. Try again!</text>
+  <text x="90" y="340" class="text">You have 2 attempts remaining.</text>
+  <text x="90" y="395" class="input">Enter your guess: 9</text>
+  <text x="90" y="440" class="success">Congratulations! You guessed 9 correctly!</text>
+  <text x="90" y="620" class="muted">Screenshot: guessing game tool</text>
+</svg>

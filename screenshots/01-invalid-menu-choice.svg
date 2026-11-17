@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; }
+      .panel { fill: #161b22; stroke: #30363d; stroke-width: 2; }
+      .title { fill: #f0f6fc; font: 700 30px 'Consolas', 'Monaco', monospace; }
+      .text { fill: #c9d1d9; font: 20px 'Consolas', 'Monaco', monospace; }
+      .input { fill: #7ee787; font: 20px 'Consolas', 'Monaco', monospace; }
+      .warn { fill: #ff7b72; font: 20px 'Consolas', 'Monaco', monospace; }
+      .muted { fill: #8b949e; font: 18px 'Consolas', 'Monaco', monospace; }
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="700"/>
+  <rect class="panel" x="60" y="40" width="1080" height="620" rx="12"/>
+  <text x="90" y="100" class="title">WELCOME TO MY PERSONAL MINI-TOOLKIT!</text>
+  <text x="90" y="150" class="text">Created by Margaret Akuch Deng</text>
+  <text x="90" y="220" class="text">========== MAIN MENU ==========
+1. Calculator
+2. To-Do List
+3. Number Guessing Game
+4. Name Formatter
+5. Quit
+===============================</text>
+  <text x="90" y="420" class="input">Enter your choice (1-5): 9</text>
+  <text x="90" y="470" class="warn">Sorry, '9' is not a valid choice.</text>
+  <text x="90" y="505" class="warn">Please select an option between 1 and 5.</text>
+  <text x="90" y="620" class="muted">Screenshot: invalid menu choice handling</text>
+</svg>
