@@ -1,0 +1,55 @@
+
+PERSONAL MINI-TOOLKIT
+Developer: Margaret Akuch Deng
+
+PROJECT PLAN
+
+1. SIMPLE CALCULATOR
+The calculator allows users to perform addition, subtraction, multiplication and division.
+
+Concepts: Variables, input, conditionals, f-strings and arithmetic operators.
+
+2. TO-DO LIST
+The to-do list allows users to add, view and remove tasks using a Python list.
+
+Concepts: Lists, loops, conditionals, input and output.
+
+3. NUMBER GUESSING GAME
+The game allows users to guess a secret number until they find the correct answer or reach the attempt limit.
+
+Concepts: Loops, conditionals, variables and random numbers.
+
+4. NAME FORMATTER
+The name formatter asks users to enter their names and displays them in a clean, properly formatted style.
+
+Concepts: Variables, input, string methods and f-strings.
+
+EXACT MENU TEXT
+
+====================================
+       PERSONAL MINI-TOOLKIT
+====================================
+1. Simple Calculator
+2. To-Do List
+3. Number Guessing Game
+4. Name Formatter
+5. Quit
+====================================
+
+Enter your choice (1-5):
+
+PROGRAM STRUCTURE
+
+The program will use a while loop to keep displaying the menu until the user chooses Quit.
+
+It will use if, elif and else statements to select the correct tool.
+
+A list will store tasks in the To-Do List tool.
+
+The Number Guessing Game will use a loop to allow multiple guesses.
+
+The calculator will use arithmetic operations and conditionals.
+
+The Name Formatter will use string methods to format names.
+
+The program will display friendly messages using f-strings.
